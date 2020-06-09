@@ -1,0 +1,14 @@
+{
+  "name": "space-news",
+  "version": "1.0.0",
+  "description": "shows you the current space news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.26.8"
+  }
+}

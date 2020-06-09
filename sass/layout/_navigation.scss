@@ -1,0 +1,22 @@
+.hero{
+    height: 90vh;
+    width: 100%;
+    background: url(../img/space.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    &__nav{
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+    &__title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 7rem;
+        width: 800px;
+    }
+}

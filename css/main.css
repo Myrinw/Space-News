@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62,5%;
+  color: #fff;
+  font-family: 'Merriweather', serif;
+  background-color: #343d32;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hero {
+  height: 90vh;
+  width: 100%;
+  background: url(../img/space.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero__nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.hero__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 7rem;
+  width: 800px;
+}
+
+.mars {
+  padding: 10rem 0;
+}
+
+.mars__box {
+  width: 70%;
+  height: 500px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 15px;
+}
+/*# sourceMappingURL=main.css.map */
