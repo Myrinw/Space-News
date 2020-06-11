@@ -1,11 +1,50 @@
 .mars{
     padding: 10rem 0;
+    background-image:linear-gradient(rgba(24, 36, 67, 0.2), rgba(24, 36, 67, 0.2)), url(../img/heha.jpg);
+    background-size: cover;
 
-    &__box{
-        width:70%;
-        height: 500px;
+    &-box{
+        width:80%;
+        height: 50rem;
         background-color: #fff;
         margin: 0 auto;
         padding:15px;
+        color: $color-black;
+        opacity: .9;
+        
+        &__info{
+            padding-right: 2rem;
+            margin-bottom: 1rem;      
+            height: 18rem;   
+            &:not(:first-child){
+                padding-left: 2rem;
+            }   
+            &:not(:last-child){
+                border-right: 3px solid $color-mars;
+            }
+        }
+
+        .title{
+            margin-bottom: 2rem;
+        }
+
+        &__paragraph{
+            padding-right: 1rem;
+            border-right: 2px solid $color-mars;
+            height: 15rem;
+        }
+     
+        ul{
+            width: 50%;
+            margin: 0 auto;
+        }
     }
+  
+
+}
+
+.nieuws{
+    padding:30rem 0;
+   background-color: black;
+   
 }

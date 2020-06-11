@@ -4,8 +4,11 @@
     box-sizing:border-box;
 }
 
+html{
+    font-size: 10px;
+}
+
 body{
-    font-size: 62,5%;
     color: $color-white;
     font-family: 'Merriweather', serif;
     background-color: $body-background;

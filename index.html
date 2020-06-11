@@ -1,9 +1,21 @@
+<!--
+    TO DO:
+
+    1. Add typing effect to hero title and add inks to hero
+    2 finsih the layout of mars weerbericht
+    4 mars weerbericht laten werken door api toe te voegen
+    3 Kijk naar wat ik hierna kan toevagen aan deze website
+
+
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
@@ -11,21 +23,50 @@
 
 <section class="hero">
     <div class="container">
-        <div class="hero__nav">
-            <p>hehehd</p>
+    
+      
+        <div class="hero__title">
+            <p class="thin">Welkom, dit is</p>
+            <div style="font-size: 10rem;" class="hero__title-text"></div>
+            <p class="thin">Up-to-date nieuws uit de ruimte</p>
+
+
         </div>
-        <div class="hero__title">SPACE-NEWS</div>
     </div>
 </section>
 
-<section class="mars">
+<section class="nieuws">
     <div class="container">
-        <div class="mars__box">
-            <h2 style=" color: rgb(39, 39, 39);">Het weer in mars:</h2>
-        </div>
+        <p>hello</p>
     </div>
 </section>
 
+<section class="mars">  
+    <div class="container">
+        <div class="mars-box">
+            <h2 class="title">Mars Weerbericht:</h2>
+            <div class="grid-thirds">
+                <div class="mars-box__info">
+                 <div class="sub-title">Sol 539,</div>
+                 <p class="thin">12 junie</p>
+                
+                </div>
+                <div class="mars-box__info">
+                    <p class="sub-title">Temp.</p>
+                        <div class="thin">Max: -20</div>
+                        <div class="thin">Min: -170</div>
+                </div>
+                <div class="mars-box__info">
+                    <p class="sub-title">Wind</p>
+                    <div class="thin">75 km/u</div>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur nihil amet vel, consequuntur aliquid quibusdam harum rerum suscipit unde culpa, officiis rem laborum nulla repellat commodi magni? Qui, quos vitae!</p>
+            </div>
+    </div>
+</section>
+
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
